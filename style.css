@@ -219,6 +219,8 @@ footer .button:hover {
   cursor: pointer;
 }
 
-input:invalid {
+.page form fieldset .input-wrapper input:invalid,
+.page form fieldset .checkbox-wrapper input:invalid {
   border: 1px solid #FF1010;
 }
+
